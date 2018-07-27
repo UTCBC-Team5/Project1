@@ -142,6 +142,7 @@ $(document).ready(function () {
             $("#showLibrary").show();
             $("#map").show();
             event.preventDefault();
+            $("#chat").show();
 
         };
 
@@ -150,6 +151,7 @@ $(document).ready(function () {
             $(".hideallofit").hide();
             $("#showCafe").show();
             $("#map").show();
+            $("#chat").show();
 
         };
 
@@ -158,6 +160,7 @@ $(document).ready(function () {
             $(".hideallofit").hide();
             $("#showPub").show();
             $("#map").show();
+            $("#chat").show();
 
         };
         //terneray operator
