@@ -16,7 +16,14 @@
 
  html, body {
   font-family: 'Roboto', 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
 }
+
+.content-container {
+  position: relative;
+}
+
 main, #messages-card {
   height: 100%;
   padding-bottom: 0;
@@ -142,11 +149,7 @@ main, #messages-card {
   top: -3px;
   position: relative;
   display: inline-block;
-<<<<<<< HEAD
-  background-image: url('/images/profile_placeholder.png');
-=======
   background-image: url('../images/profile_placeholder.png');
->>>>>>> master
   background-repeat: no-repeat;
   width: 40px;
   height: 40px;
@@ -202,8 +205,5 @@ main, #messages-card {
 .mdl-button .material-icons {
   top: -1px;
   margin-right: 5px;
-<<<<<<< HEAD
-=======
-  color: black;
->>>>>>> master
 }
+
