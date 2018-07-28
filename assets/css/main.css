@@ -16,7 +16,14 @@
 
  html, body {
   font-family: 'Roboto', 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
 }
+
+.content-container {
+  position: relative;
+}
+
 main, #messages-card {
   height: 100%;
   padding-bottom: 0;
@@ -199,3 +206,4 @@ main, #messages-card {
   top: -1px;
   margin-right: 5px;
 }
+

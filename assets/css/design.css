@@ -94,6 +94,7 @@ body {
     margin: auto;
     height: 400px;
     width: 600px;
+    max-width: 100%;
  }
 
 img {
@@ -103,3 +104,39 @@ img {
     position: fixed;
     z-index: 0;
  }
+
+#startuppage, #question1, #question2, #question3 {
+    line-height: 50px;
+    background:rgba(255,255,255, 0.6);
+}
+
+#startuppage p, #question1 p, #question2 p, #question3 p {
+     font-size: 24px;
+     line-height: 24px;
+}
+
+@media only screen and (max-width: 375px) {
+    #startuppage, #question1 , #question2 , #question3  {
+        line-height: 24px;
+        font-size: 24px !important;
+    }
+
+    h1 {
+        font-size: 24px !important;
+        line-height: 24px;
+    }
+    p {
+        font-size: 24px !important;
+        line-height: 24px;
+    }
+}
+
+#showLibrary, #showCafe, #showPub { 
+    background:rgba(255,255,255, 0.6);
+    padding-bottom: 20px;
+}
+
+#showLibrary button, #showCafe button, #showPub button {
+    display: block;
+    margin: 0 auto;
+}
