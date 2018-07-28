@@ -142,11 +142,7 @@ main, #messages-card {
   top: -3px;
   position: relative;
   display: inline-block;
-<<<<<<< HEAD
   background-image: url('/images/profile_placeholder.png');
-=======
-  background-image: url('../images/profile_placeholder.png');
->>>>>>> master
   background-repeat: no-repeat;
   width: 40px;
   height: 40px;
@@ -202,8 +198,4 @@ main, #messages-card {
 .mdl-button .material-icons {
   top: -1px;
   margin-right: 5px;
-<<<<<<< HEAD
-=======
-  color: black;
->>>>>>> master
 }
