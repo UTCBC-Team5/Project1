@@ -94,6 +94,7 @@ body {
     margin: auto;
     height: 400px;
     width: 600px;
+    float:right;
  }
 
 img {
